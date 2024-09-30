@@ -20,7 +20,7 @@ endpoints.post ('/Consultas/', async (req, resp) => {
     try {
         let pessoa = req.body; 
 
-        let id= await db.inserirConsultas (consulta)
+        let id= await db.inserirConsultas (consulta);
 
         resp.send ({
             novoId: id

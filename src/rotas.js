@@ -1,6 +1,6 @@
-import ConsultasController from  './controller/ConsultasController.js'
+import agendasController from  './controller/agendasController.js'
 
 
 export default function adicionarRotas (servidor){
-    servidor.use (ConsultasController); 
+    servidor.use (agendasController); 
 }
